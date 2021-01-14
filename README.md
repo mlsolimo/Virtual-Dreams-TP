@@ -52,7 +52,7 @@ Se utiliza el verbo GET para obtener la información del documento que represent
 ###### 8.	Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.
 La estructura de datos JSON es un documento de texto que representa un objeto. XML en cambio utiliza tags como en HTML, pero sin tags definidos, siendo definidos por el desarrollador.
 
-La estructura de JSON consisten en guardar entre llaves, el nombre del atributo y su valor. Mientras que en XML, su estructura se basa en tags, que deben ser cerrados, una vez abiertos para ser valido. 
+La estructura de JSON consisten en guardar entre llaves, el nombre del atributo y su valor. Mientras que en XML, su estructura se basa en tags, que deben ser cerrados, una vez abiertos para ser válido. 
 
 ###### 9.	Explicar brevemente el estándar SOAP
 Es un protocolo de trasmision de información, que se basa en utilizar XML para el envio de datos.
@@ -61,5 +61,5 @@ Es un protocolo de trasmision de información, que se basa en utilizar XML para 
 Servicio que funciona como un estandar pero que se centra en el uso de los verbos de HTTP como protocolo de comunicación, en la devolución de un codigo de estado y en definir parámetros de consulta para que el servicio sepa que debe consultar.
 
 ###### 11.	¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
-Contienen mas informacion sobre el recurso o sobre el cliente que realiza la solucitud.
-Content-Key se utiliza para saber el tipo de archivo que esta devolviendo
+Contienen mas información sobre el recurso o sobre el cliente que realiza la solicitud.
+Content-Key se utiliza para saber el tipo de archivo que está devolviendo.
