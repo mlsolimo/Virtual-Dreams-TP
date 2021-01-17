@@ -61,11 +61,12 @@ Es un protocolo de trasmision de información, que se basa en utilizar XML para 
 Es un estándar que implementa el protocolo HTTP y que sigue los principios de la arquitectura REST.
 
 Principios REST:
--Dar a todas las cosas un identificador: Los recursos claves deben ser identificados con un ID único y global. En la Web, existe el concepto de URI(identificador de recursos uniforme) para identificarlos.
--Vincular las cosas: Utilizar hipervínculos para hacer referencias a recursos claves siempre que sea posible.
--Use métodos estándar: Utilizar los verbos HTTP para que cualquier componente que comprende el protocolo HTTP interactue con la aplicación.
--Recursos con múltiples representaciones: Permitir que un mismo recurso pueda consumirse en distintos formatos para ser consumidos por cualquier aplicación o navegador web.
--Comunique sin estado: El servidor no debería guardar el estado de la comunicación con el cliente, sino que transformarlo en un recurso y que sea amntenido en el cliente.
+
+- Dar a todas las cosas un identificador: Los recursos claves deben ser identificados con un ID único y global. En la Web, existe el concepto de URI(identificador de recursos uniforme) para identificarlos.
+- Vincular las cosas: Utilizar hipervínculos para hacer referencias a recursos claves siempre que sea posible.
+- Use métodos estándar: Utilizar los verbos HTTP para que cualquier componente que comprende el protocolo HTTP interactue con la aplicación.
+- Recursos con múltiples representaciones: Permitir que un mismo recurso pueda consumirse en distintos formatos para ser consumidos por cualquier aplicación o navegador web.
+- Comunique sin estado: El servidor no debería guardar el estado de la comunicación con el cliente, sino que transformarlo en un recurso y que sea amntenido en el cliente.
 
 Se habla de servicios web RESTFul si cumplen con estos principios mencionados anteriormente
 
