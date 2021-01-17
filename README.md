@@ -88,7 +88,13 @@ Ejemplo de estructura de XML:
 ```
 
 ###### 9.	Explicar brevemente el estándar SOAP
-Es un protocolo de trasmision de información, que se basa en utilizar XML para el envio de datos.
+Es un protocolo estándar que define como dos procesos/sistemas pueden comunicarse, intercambiando datos a través de protocolos HTTP, SMTP, TCP, entre otros, expresados como XML.
+
+Contiene 4 aspectos:
+- Describe como organizar la información en un documento XML, definiendo un formato.
+- Describe como transferir el mensaje SOAP, utilizando distintos protocolos de transferencia de datos.
+- Define mecanismos de codificación para declarar el tipo de datos utilizado en la aplicación.
+- Define un contrato de grupo sobre cómo expresar la llamada y respuesta del proceso remoto e intercambiar mensajes SOAP.
 
 ###### 10.	Explicar brevemente el estándar REST Full
 Es un estándar que implementa el protocolo HTTP y que sigue los principios de la arquitectura REST.
