@@ -61,5 +61,6 @@ Es un protocolo de trasmision de información, que se basa en utilizar XML para 
 Servicio que funciona como un estandar pero que se centra en el uso de los verbos de HTTP como protocolo de comunicación, en la devolución de un codigo de estado y en definir parámetros de consulta para que el servicio sepa que debe consultar.
 
 ###### 11.	¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
-Contienen mas información sobre el recurso o sobre el cliente que realiza la solicitud.
-Content-Key se utiliza para saber el tipo de archivo que está devolviendo.
+Los headers en un request son parámetros que proporcionan información acerca del recurso a buscar o sobre el cliente que realiza la consulta, para que el servidor conociendo esta información pueda adaptar su respuesta al cliente. Puede haber headers obligatorios que un servidor puede esperar, como el de Authorization que si no lo mandas el servidor puede devolverte un 401.
+
+Content-type se utiliza para saber el formato que tiene el contenido(media type) del recurso. En requests, el cliente indica al servidor que formato tiene el contenido del recurso que está enviando o el formato que debe tener el contenido en la respuesta. Y en los responses, un Content-Type header indica al cliente, el media type que es devuelto en el contenido de la respuesta.
