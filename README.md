@@ -58,7 +58,16 @@ La estructura de JSON consisten en guardar entre llaves, el nombre del atributo 
 Es un protocolo de trasmision de información, que se basa en utilizar XML para el envio de datos.
 
 ###### 10.	Explicar brevemente el estándar REST Full
-Servicio que funciona como un estandar pero que se centra en el uso de los verbos de HTTP como protocolo de comunicación, en la devolución de un codigo de estado y en definir parámetros de consulta para que el servicio sepa que debe consultar.
+Es un estándar que implementa el protocolo HTTP y que sigue los principios de la arquitectura REST.
+
+Principios REST:
+-Dar a todas las cosas un identificador: Los recursos claves deben ser identificados con un ID único y global. En la Web, existe el concepto de URI(identificador de recursos uniforme) para identificarlos.
+-Vincular las cosas: Utilizar hipervínculos para hacer referencias a recursos claves siempre que sea posible.
+-Use métodos estándar: Utilizar los verbos HTTP para que cualquier componente que comprende el protocolo HTTP interactue con la aplicación.
+-Recursos con múltiples representaciones: Permitir que un mismo recurso pueda consumirse en distintos formatos para ser consumidos por cualquier aplicación o navegador web.
+-Comunique sin estado: El servidor no debería guardar el estado de la comunicación con el cliente, sino que transformarlo en un recurso y que sea amntenido en el cliente.
+
+Se habla de servicios web RESTFul si cumplen con estos principios mencionados anteriormente
 
 ###### 11.	¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
 Los headers en un request son parámetros que proporcionan información acerca del recurso a buscar o sobre el cliente que realiza la consulta, para que el servidor conociendo esta información pueda adaptar su respuesta al cliente. Puede haber headers obligatorios que un servidor puede esperar, como el de Authorization que si no lo mandas el servidor puede devolverte un 401.
