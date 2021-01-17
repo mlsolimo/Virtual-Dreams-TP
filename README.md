@@ -92,7 +92,7 @@ Es un protocolo estándar que define como dos procesos/sistemas pueden comunicar
 
 Contiene 4 aspectos:
 - Describe como organizar la información en un documento XML, definiendo un formato.
-- Describe como transferir el mensaje SOAP, utilizando distintos protocolos de transferencia de datos.
+- Describe como transferir el mensaje SOAP, utilizando distintos protocolos.
 - Define mecanismos de codificación para declarar el tipo de datos utilizado en la aplicación.
 - Define un contrato de grupo sobre cómo expresar la llamada y respuesta del proceso remoto e intercambiar mensajes SOAP.
 
