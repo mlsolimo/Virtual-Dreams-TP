@@ -54,6 +54,39 @@ La estructura de datos JSON es un documento de texto que representa un objeto. X
 
 La estructura de JSON consisten en guardar entre llaves, el nombre del atributo y su valor. Mientras que en XML, su estructura se basa en tags, que deben ser cerrados, una vez abiertos para ser válido. 
 
+Ejemplo de estructura de JSON:
+
+```
+{
+  "squadName": "Super hero squad",
+  "homeTown": "Metro City",
+  "formed": 2016,
+  "secretBase": "Super tower",
+  "active": true,
+  "members": [
+    {
+      "name": "Molecule Man",
+      "age": 29,
+      "secretIdentity": "Dan Jukes",
+      "powers": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    }
+  ]
+}
+```
+Ejemplo de estructura de XML:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+    <warning>
+         Hello World
+    </warning>
+</message>
+```
+
 ###### 9.	Explicar brevemente el estándar SOAP
 Es un protocolo de trasmision de información, que se basa en utilizar XML para el envio de datos.
 
